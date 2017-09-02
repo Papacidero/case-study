@@ -17,6 +17,7 @@ class InputText extends React.Component {
                     className={this.props.class}
                     style={this.style}
                     onChange={this.handleChanges.bind(this)}
+                    onBlur={this.handleChanges.bind(this)}
                     onKeyUp={this.handleChanges.bind(this)}
                     data-type={this.props.type}
                 />);
