@@ -106,7 +106,7 @@ class CaseStudy extends React.Component {
                     <h5>Step 1</h5>
                     <div className="form-group">
                         <label htmlFor="exampleInputEmail1">Where are you from?</label>
-                        <InputText class="place form-control" type="place" callback={this.handleChanges.bind(this)} placeholder="Citie" value={this.state.place}/>
+                        <InputText class="place form-control" type="place" callback={this.handleChanges.bind(this)} placeholder="City" value={this.state.place}/>
                         
                     </div>
                     <button  onClick={this.nextStep.bind(this)} className="btn btn-primary">Next</button>

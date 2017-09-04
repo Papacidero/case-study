@@ -1,3 +1,5 @@
+To run the project you need to do a __npm install__ then __npm run start__ and access the url [http://localhost:5000/](http://localhost:5000/) 
+
 # React Js and Google Places Api case study
 
 You are going to build a React JS application wizard which consumes an API service. The application should guide a user through a three step application process with the following constraints:
